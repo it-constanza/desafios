@@ -1,0 +1,278 @@
+  @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@400;800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+/*  border: solid 1px black;  */
+
+}
+
+body {
+    font-family: 'Dosis', sans-serif;
+    background-color: #12173d;
+   
+}
+
+header 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+}
+
+h1 {
+    display: flex;
+     color: #cf73fdff ;
+    text-shadow: 1px 1px 1px white;
+    padding: 15px;
+    font-size: 50px;
+}
+
+.puntos
+{
+    height: 30px;
+
+}
+
+div {
+
+    padding: 10px;
+
+}
+
+
+
+input {
+    background-color: #ffffff50;
+    border-radius: 10px;
+    height: 30px;
+    margin: 5px;
+    color: #ffffff;
+    font-weight: 800;
+    align-self: stretch;
+     
+}
+
+
+
+select {
+    background-color: #ffffff50;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
+
+textarea { 
+    background-color: #ffffff50;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  
+    
+
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    border: none;
+    }
+
+.fieldset {
+    display: flex;
+    background-color: #ffffff20;
+    border: #8a1e4bff 1px solid ;
+    border-radius: 10px;
+ 
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    background-image: url("../imgestilos/space1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    border-radius: 10px;
+    
+  
+}
+
+
+.sports {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.radio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+ label {
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+ }
+
+.sexo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+    
+}
+
+textarea {
+    
+    height: 90px;
+}
+
+.fondoinput {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.placeend::-webkit-input-placeholder {
+    padding: 5px;
+    color: #A6C1B9;
+
+}
+
+
+.icon
+{
+    display: none;
+}
+
+.connov {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    border: #8a1e4bff 1px solid ;
+    border-radius: 10px;  
+    color: #ffffff;
+   background: linear-gradient(#8a1e4b90, #43bce990);
+
+}
+
+span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;  
+    height: 50px;
+    padding: 5px;
+    margin: 15px;
+    
+}
+
+p {
+    color: white;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}
+
+.boton { 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 10px;  
+    height: 50px;
+    padding: 5px;
+    margin: 15px;
+    margin-bottom: 50px;
+}
+
+button { 
+
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        border: #8a1e4bff 1px solid ;
+        border-radius: 10px;  
+        height: 50px;
+        padding: 5px;
+        margin: 15px;
+        box-shadow: 1px 2px 10px #8a1e4bff;
+        width: 200px;
+        background-image: url(../imgestilos/space1.jpg);
+        color: #ffffff;
+        text-shadow: 1px 2px 10px #8a1e4bff;
+        font-size: 18px;
+        font-weight: 900;
+
+}
+
+option {     
+    color: #e9ece9;
+    background-color: #cf73fd;
+    border-radius: 10px;
+    height: 30px;
+    
+
+}
+
+select { 
+   background-color: #ffffff50;
+   color: #e9ece9;
+   margin: 10px;
+   padding: 5px;
+}
+
+legend {
+    font-size: 25px;
+   
+}
+
+
+input:focus {
+    zoom: 140%;
+    color: #ffffff;
+}
+
+
+textarea:focus {
+    zoom: 140%;
+    color: #ffffff;
+}
+
+select:focus {
+    zoom: 140%;
+    color: #ffffff;
+}
+
+/* /* CSS HEX
+--tufts-blue: #3891e2ff;
+--heliotrope: #cf73fdff;
+--murrey: #8a1e4bff;
+--space-cadet: #12173dff;
+--aero: #43bce9ff;
+
+font-family: 'Dosis', sans-serif;
+

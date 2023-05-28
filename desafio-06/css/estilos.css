@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;900&family=Roboto&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+     
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: #1f2023;
+    font-family: 'Roboto', sans-serif;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+header {
+    display: flex;
+    background-color: #1f2023;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    border-top: solid 15px #4D6D63;
+    border-bottom: solid 15px #4D6D63;
+    border-left: solid 15px #1f2023;
+    border-right: solid 15px #1f2023;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    margin: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+   
+
+}
+
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: #D6E2DE;
+    margin: 15px;
+    padding: 30px;
+}
+
+legend {
+    display: flex;
+    background-color: #4D6D63;
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+
+label {
+    display: flex;
+    height: 25px;
+    margin: auto;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+select {
+    align-self: stretch;
+    height: 30px;
+    padding: 5px;
+
+}
+
+textarea {
+    align-self: stretch;
+    height: 90px;
+
+}
+
+input {
+    align-self: stretch;
+    height: 30px;
+    background-color: #ffffff;
+    text-align: end;
+
+}
+
+.placeend::-webkit-input-placeholder {
+    padding: 5px;
+    text-align: end;
+    color: #A6C1B9;
+
+}
+
+div {
+    display: flex;
+     margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.formulario 
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.block {
+    display: block;
+
+}
+
+.stretch {
+    align-items: stretch;
+}
+
+.radio {
+    display: flex;
+    align-self: center;
+
+}
+
+button {
+    background-color: #2b3d37;
+    color: #ffffff;
+    height: 50px;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.connov {
+    color: #ffffff;
+    align-items: flex-start;
+    padding: 0;
+
+}
+
+span {
+    display: flex;
+
+}
+
+.obligatorio {
+    color: #ffffff;
+}
+
+
+.puntos {
+
+    width: 250px;
+    border-top: dotted 10px #a6c1b9;
+    align-self: center;
+
+}
+
+.izq
+{
+    align-items: flex-start;
+    justify-content: center;
+    align-content: center;
+}
+
+.chico
+{
+    font-size: small;
+}
+
+
+/* Las tipografías utilizadas fueron:
+
+- 'Roboto', sans-serif
+- 'Poppins', sans-serif */
+
+
+.fieldset :focus-within {
+    background-color: #A6C1B9;
+    
+
+}   
+
+.fondoinput :focus {
+    background-color: #4D6D63;
+    color: #ffffff;
+}
+
+.fondoinputblanco :focus {
+    background-color: #ffffff;
+    color: #1f2023;
+}
+
