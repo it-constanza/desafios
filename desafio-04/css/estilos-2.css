@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Cabin&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* border: solid 1px; */
+}
+
+body {
+    font-family: 'Cabin', sans-serif;
+    background: rgb(0, 212, 255);
+    background: radial-gradient(circle, rgba(0, 212, 255, 1) 0%, rgba(71, 9, 121, 1) 50%, rgba(6, 0, 101, 1) 100%);
+}
+
+header {
+    height: 100px;
+    padding: 10px;
+    /* background-color: aqua */
+    ;
+
+}
+
+h1 {
+    text-align: center;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    font-size: 60px;
+    font-weight: 700;
+    color: white;
+    font-family: 'Amatic SC', cursive;
+    animation: mover-izquierda-derecha-h1 10s 1;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+
+}
+
+@keyframes mover-izquierda-derecha-h1 {
+    from {
+        transform: translateX(-400px);
+    }
+
+    to {
+        transform: translateX(400px);
+    }
+}
+
+main {
+    
+    padding-left: 10px;
+
+}
+
+.masvendidos {
+    display: flex;
+    padding-bottom: 100px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+figure {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5%;
+}
+
+.juego {
+    margin-top: 40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 15px;
+    margin: 15px;
+    border-radius: 5%;
+    text-align: center;
+    margin: 15px;
+
+}
+
+
+h2 {
+    text-align: center;
+    writing-mode: vertical-lr;
+    /* esta y la de abajo es la propiedad que hace el texto vertical */
+    text-orientation: upright;
+    font-family: 'Amatic SC', cursive;
+    font-size: 65px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin-top: 40px;
+    margin: 15px;
+    font-weight: 700;
+    animation: mover-arriba-abajo-h2 5s 1;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; 
+    height: 700px;
+     }
+
+    @keyframes mover-arriba-abajo-h2 {
+        from{
+            transform: translateY(-10px);
+        }
+        to{
+            transform: translateY(180px);
+        }    
+    
+
+}
+
+
+
+h3 {
+    width: 300px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+img {
+    width: 600px;
+    margin: 10px;
+    border-radius: 5%;
+}
+
+figcaption {
+
+    width: 600px;
+    height: 300px;
+    margin: 10px;
+    border-radius: 5%;
+    border: solid white 1px;
+    padding: 5px;
+
+}
+
+a {
+    display: inline-block;
+    border-radius: 5%;
+
+}
+
+a:hover {
+    background: rgb(0, 212, 255);
+    color: magenta;
+    font-size: 60px;
+    
+
+}
+
+.boton {
+    text-decoration: none;
+    background-color: hsl(300, 100%, 50%,0.5);
+    color: rgb(0, 212, 255);
+    text-align: center;
+    height: 100px;
+    width: 300px;
+    font-family: 'Amatic SC', cursive;
+    font-size: 50px;
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 10px;
+
+
+
+
+
+
+}
+
+footer {
+    border: 1px white solid;
+    text-align: center;
+    color: white;
+    margin-bottom: 15px;
+    padding: 3px;
+
+}
+
+
+p {
+    padding: 6px;
+    font-size: 15px;
+}
+
+/* font-family: 'Amatic SC', cursive;
+font-family: 'Cabin', sans-serif; */
